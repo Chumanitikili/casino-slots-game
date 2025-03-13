@@ -1,17 +1,17 @@
 # South African Treasures Slots Game 🎰
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://sa-slots-game.onrender.com)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://casino-slots-game.onrender.com)
 [![Made with Flask](https://img.shields.io/badge/made%20with-Flask-blue.svg)](https://flask.palletsprojects.com/)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A themed slot machine game featuring South African wildlife and cultural symbols. Built with Python (Flask), HTML, CSS, and JavaScript.
 
+## 🎮 Play Now!
+
+**[Click here to play South African Treasures Slots](https://casino-slots-game.onrender.com)**
+
 ![Game Preview](screenshots/game-preview.png)
-
-## 🎮 Game Demo
-
-Try the game live at: [https://sa-slots-game.onrender.com](https://sa-slots-game.onrender.com)
 
 ## ✨ Features
 

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sa-slots-game
+    name: casino-slots-game
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
