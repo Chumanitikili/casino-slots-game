@@ -183,6 +183,52 @@ h1 {
     font-size: 1.1rem;
 }
 
+.developer-info {
+    margin-top: 2rem;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid var(--accent-color);
+}
+
+.developer-info h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.social-links a {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: var(--secondary-color);
+}
+
+.portfolio-link a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.portfolio-link a:hover {
+    background: var(--secondary-color);
+    color: var(--background-color);
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
