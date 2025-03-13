@@ -1,7 +1,9 @@
 from flask import Flask, render_template, jsonify
 import random
+import os
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-key-123')
 
 # Define South African themed symbols
 SYMBOLS = [
@@ -44,4 +46,5 @@ def spin():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port) 
