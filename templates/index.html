@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South African Slots</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎰 South African Treasures 🎰</h1>
+            <div class="balance-container">
+                <p>Balance: R<span id="balance">1000</span></p>
+            </div>
+        </header>
+
+        <main>
+            <div class="slot-machine">
+                <div class="slots-container">
+                    <div class="slot-grid">
+                        <!-- 3x3 grid for symbols -->
+                        <div class="slot" data-index="0"></div>
+                        <div class="slot" data-index="1"></div>
+                        <div class="slot" data-index="2"></div>
+                        <div class="slot" data-index="3"></div>
+                        <div class="slot" data-index="4"></div>
+                        <div class="slot" data-index="5"></div>
+                        <div class="slot" data-index="6"></div>
+                        <div class="slot" data-index="7"></div>
+                        <div class="slot" data-index="8"></div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="bet-controls">
+                        <button id="decrease-bet">-</button>
+                        <span>Bet: R<span id="current-bet">10</span></span>
+                        <button id="increase-bet">+</button>
+                    </div>
+                    <button id="spin-button" class="spin-button">SPIN</button>
+                </div>
+            </div>
+
+            <div class="win-display">
+                <h2>Last Win: R<span id="win-amount">0</span></h2>
+            </div>
+        </main>
+
+        <footer>
+            <div class="symbols-guide">
+                <h3>Symbols & Payouts</h3>
+                <div class="symbols-grid">
+                    <div class="symbol-item">🦁 Lion: R500</div>
+                    <div class="symbol-item">🐘 Elephant: R400</div>
+                    <div class="symbol-item">🦏 Rhino: R300</div>
+                    <div class="symbol-item">🌺 Protea: R250</div>
+                    <div class="symbol-item">🦌 Springbok: R200</div>
+                    <div class="symbol-item">💎 Diamond: R150</div>
+                    <div class="symbol-item">🥁 Drum: R100</div>
+                    <div class="symbol-item">🎭 Mask: R50</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
