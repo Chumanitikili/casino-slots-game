@@ -128,4 +128,4 @@ http://localhost:5000
 
 ## 📄 License
 
-MIT License - feel free to use this project for your own portfolio!
+MIT License
